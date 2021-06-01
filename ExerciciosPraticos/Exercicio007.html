@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang=“pt-br”>
+
+<head>
+    <title>Curso de Javascript</title>
+    <meta charset=“UTF-8”>
+    <script>
+        var jogador;
+        var vidas;
+        var municao;
+    </script>
+</head>
+
+<body>
+
+    <script>
+        var jogador = "Bruno";
+
+        var vidas = 3;
+        var municao = 100;
+        var pontos = 0;
+        document.write("Nome: " + jogador + "<br>");
+        document.write("Vidas: " + vidas + "<br>");
+        document.write("Munição: " + municao + "<br>");
+        document.write("Pontos: " + (pontos + (vidas * 10)) + "<br>");
+
+        document.write("<br>");
+        document.write("<br>");
+
+        document.write("Nome: <span style='color:#F00'>" + jogador + "</span><br>");
+        document.write("Vidas: <span style='color:#F00'>" + vidas + "</span><br>");
+        document.write("Munição: <span style='color:#F00'>" + municao + "</span><br>");
+        document.write("Pontos: <span style='color:#F00'>" + (pontos + (vidas * 10)) + "</span><br>");
+
+        document.write("<br>");
+        document.write("<br>");
+
+        var jogador = "Juliette";
+        var vidas = 3;
+        var municao = 100;
+        var pontos = 0;
+        var tiros = 1500;
+        var acertos = 750;
+        var mediaDeAcertos = (acertos / tiros) * 100;
+        document.write("Nome: <span style='color:#F00'>" + jogador + "</span><br>");
+        document.write("Vidas: <span style='color:#F00'>" + vidas + "</span><br>");
+        document.write("Munição: <span style='color:#F00'>" + municao + "</span><br>");
+        document.write("Pontos: <span style='color:#F00'>" + (pontos + (vidas * 10)) + "</span><br>");
+        document.write("Média de acertos: <span style='color:#F00'>" + mediaDeAcertos + "%</span><br>");
+    </script>
+
+    </script>
+
+
+</body>
+
+</html>
