@@ -4,6 +4,7 @@ A tabela a seguir lista os caracteres especiais que podem ser usados em strings 
 
 ## Tabela: Caracteres especiais no JavaScript
  | Caracter	 | Descrição | 
+ | --- | --- |
  | \0	 | Byte nulo | 
  | \b	 | Backspace | 
  | \f	 | Alimentador de formulário | 
@@ -17,3 +18,4 @@ A tabela a seguir lista os caracteres especiais que podem ser usados em strings 
  | \XXX	| Caractere com a codificação Latin-1 especificada por três dígitos octal XXX entre 0 e 377. Por exemplo, \251 é sequência octal para o símbolo de direitos autorais. | 
  | \xXX	 | Caractere com a codificação Latin-1 especificada por dois dígitos hexadecimal XX entre 00 e FF. Por exemplo, \xA9 é a sequência hexadecimal para o símbolo de direitos autorais. | 
  | \uXXXX	 | Caractere Unicode especificado por quatro dígitos hexadecimal XXXX. Por exemplo, \u00A9 é a sequência Unicode para o símbolo de direitos autorais. Veja sequências de escape Unicode. | 
+ 
