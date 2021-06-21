@@ -16,7 +16,7 @@ Linguagem
 
 - [Code Exemplos](../js)
 
--[Tutoriais](https://github.com/VagnerBellacosa/Curso_JavaScript/tree/main/Tutoriais)
+- [Tutoriais](https://github.com/VagnerBellacosa/Curso_JavaScript/tree/main/Tutoriais)
 
 ## Desafio de Codigo
 
