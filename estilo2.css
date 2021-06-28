@@ -1,0 +1,113 @@
+				/*
+Bem-vindo ao CSS Personalizado!
+
+CSS (Folhas de Estilo em Cascata) é um tipo de código que diz ao
+navegador como exibir uma página. Você pode excluir estes comentários e
+começar suas personalizações.
+
+Por padrão, sua folha de estilo será carregada após as folhas de estilo
+do tema, ou seja, suas regras têm prioridade e substituem as regras de CSS
+do tema. Escreva apenas o que você deseja alterar, não é necessário
+copiar todo o conteúdo da folha de estilos do tema.
+*/
+.site-header hgroup h1 {
+	font-size: 3.5em;
+}
+
+.main-navigation {
+	background: #000;
+}
+
+#menu-menu-1 li a {
+	color: #FFFFFF;
+}
+
+#menu-menu-1 li a:hover {
+	color: #777;
+}
+
+#menu-menu-1 .current-menu-item > a,
+#menu-menu-1 .current-menu-ancestor > a,
+#menu-menu-1 .current_page_item > a,
+#menu-menu-1 .current_page_ancestor > a {
+	color: #777;
+	font-weight: bold;
+}
+
+/* .main-navigation */
+#menu-menu-1 {
+	padding-left: 30px;
+}
+
+aside.widget {
+	margin-bottom: 40px;
+}
+
+aside.widget h3 {
+	border-bottom: solid 1px #333;
+	margin-bottom: 10px;
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+.entry-content a,
+.entry-content a:visited,
+.entry-content a:active {
+	color: #2595f7;
+	text-decoration: none;
+}
+
+.sidebar-banner-holder {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.uphp_post_cta {
+	background: #4d4a48;
+	color: #fff;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.uphp_post_cta h2 {
+	color: #fff;
+	padding: 1.2em .7em;
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+	background: #42403e;
+}
+
+.uphp_post_cta .uphp_cta_image {
+	float: right;
+	max-width: 30%;
+}
+
+.uphp_post_cta .uphp_cta_text {
+	float: left;
+	max-width: 68%;
+	padding-top: 30px;
+}
+
+.uphp_post_cta .btn-download {
+	margin-top: 30px;
+}
+
+.uphp_post_cta .btn-download img {
+	width: 210px;
+}
+
+#colophon {
+	border-top: solid 2px #000;
+}
+
+
+.adsense-holder {
+    text-align: center;
+}
+
+ins {
+    background: transparent;
+    text-decoration: none;
+}			</style>

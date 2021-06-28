@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Javascript trabalhando duro com variaveis</title>
+ </head>
+ <body>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+<h1> Abra a consola e veja o resultado</h1>
+
+<br>
+<br>
+vamos criar a seguinte string e manipulá-la:
+
+<pre class="highlight markdown"><code> 
+var str="Estudando Javascript";
+
+</code></pre>
+
+<script>
+var str="Estudando Javascript";
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>toLowerCase(): converte toda a string para minúscula
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.toLowerCase());
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.toLowerCase());
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>toUpperCase(): converte toda a string para maiúscula
+</code></pre>
+
+
+<pre class="highlight markdown"><code> 
+console.log(str.toUpperCase())
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.toUpperCase());
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>charAt(): recebe uma posição e retorna seu caractere dentro da string
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.charAt(10))
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.charAt(10));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>search(): recebe um caractere e retorna sua posição dentro da string
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.search('J'))
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.search('J'));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>replace(): faz uma substituição de caracteres ,recebe aquele á ser substituido e depois o substituto
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.replace('Javascript','C#'))
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.replace('Javascript','C#'));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>slice(): faz um corte na string, recebe uma posição inicial do corte e a final e retorna o corte
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.slice(10,20));
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.slice(10,20));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>substr(): também faz um corte na string, recebe uma posição inicial do corte e o tamanho do corte
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.substr(10,10));
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.substr(10,10));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>split(): faz um corte na string em um ponto especifico (no caso abaixo ,no espaço) e adiciona cada um deles em um indice de um array
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.split(' '));
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.split(' '));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>startsWith(): recebe um caractere e retorna true caso exista no inicio da string e false caso não exista no inicio
+
+</code></pre>
+
+
+<pre class="highlight markdown"><code> 
+console.log(str.startsWith("E"));
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.startsWith("E"));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>endsWith(): recebe um caractere e retorna true caso exista no final da string e false caso não exista no final
+</code></pre>
+
+
+<pre class="highlight markdown"><code> 
+console.log(str.endsWith("t"));
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.endsWith("t"));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>includes(): recebe um caractere e retorna true caso exista na string e false caso não exista
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.includes("e"));
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.includes("e"));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2> repeat(): recebe um número de vezes para repetir a string
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+var str="Estudando Javascript";
+console.log(str.repeat(3));
+</code></pre>
+<script>
+console.log(str.repeat(3));
+</script>
+
+<pre class="highlight markdown"><code> 
+<h2>
+length: retorna o tamanho da string,ou seja,o número de caracteres
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+console.log(str.length)
+</code></pre>
+<script>
+var str="Estudando Javascript";
+console.log(str.length)
+</script>
+
+
+Podemos também juntar duas ou mais string que estão ou não guardadas em variáveis diferentes, vamos criar mais uma variável:
+
+
+<pre class="highlight markdown"><code> 
+var str2=" e node.js"
+</code></pre>
+
+<script>
+var str2=" e node.js"
+</script>
+
+Agora vamos juntar as duas strings:
+
+
+<pre class="highlight markdown"><code> 
+concat(): junta duas strings estejam ou não dentro de variáveis
+console.log(str.concat(str2));
+console.log("estudando java".concat(" e spring Boot "));
+</code></pre>
+
+<pre class="highlight markdown"><code> 
+</code></pre>
+
+<script>
+var str2=" e node.js"
+console.log(str.concat(str2));
+console.log("estudando java".concat(" e spring Boot "));
+</script>
+
+</body>
+
+</html>
