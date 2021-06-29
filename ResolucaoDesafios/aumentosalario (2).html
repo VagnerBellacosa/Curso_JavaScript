@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Debugg</title>
+ </head>
+ <body>
+
+  <script>
+
+let input = require("fs").readFileSync("/dev/stdin", "utf8");
+let lines = input.split("\n");
+
+let isSum = lines.shift() === "S";
+
+let xL = 12,
+   yL = 12;
+
+let sum = 0.0,
+    av = 0.0;
+
+let  ct_num = 0;
+let ct_count = 0:
+let i = 0;
+
+for ( x = 0 ; x <= 12 ; x++   ) {
+  
+  for ( y = 0; y <= 12 ; y++   ) {
+    
+    i = Number(lines);
+    
+    ct_num = parseFloat(i) ;
+    ct_acum = ct_acum + ct_num;
+    ct_count++;
+    
+    if ( isSum != "S"  ) {
+        ct_resp = ct_acum / ct_count;
+    }
+    else {
+      ct_resp = ct_acum;
+    }
+  }
+}
+
+
+console.log( ct_resp );
+
+  </script>
+
+ </body>
+</html>
