@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Close Windows</title>
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js">
+  
+ </head>
+ <body>
+
+<a href="#" onclick="close_window();return false;">close</a>
+
+<a href="javascript:close_window();">close</a>
+
+
+  <script>
+
+// ==UserScript==
+// @name         Close Tab Script
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Closes current tab when triggered
+// @author       Mackey Johnstone
+// @match        http://localhost/index.php
+// @grant        window.close
+// @require      http://code.jquery.com/jquery-3.4.1.min.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    $("#close_page").click(function() {
+        var confirm_result = confirm("Are you sure you want to quit?");
+        if (confirm_result == true) {
+            window.close();
+        }
+    });
+})();
+
+  </script>
+  
+ </body>
+</html>
