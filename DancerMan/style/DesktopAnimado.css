@@ -1,0 +1,28 @@
+
+
+.tw-sprite{
+  display: inline-block;
+  background-image: url('../image/desktop-apps.png');
+  background-repeat: no-repeat;
+}
+
+
+.tw-sprite-github{
+	width: 70px;
+  	height: 80px;
+}
+
+
+
+.tw-sprite-github2{
+	width: 60px;
+  	height: 70px;
+    	background-position: -5px -5px;
+}
+
+.tw-sprite-github3{
+	width: 70px;
+	height: 70px;
+	background-position: -340px -150px;
+}
+

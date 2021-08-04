@@ -1,0 +1,35 @@
+html, body{
+  min-height: 400px;
+}
+
+#tw-sprite-style{
+  display: inline-block;
+  white-space: pre;
+  background-color: black;
+  color: white;
+  margin: 10px auto;
+  padding: 0 15px 15px 15px;
+  vertical-align: middle;
+  min-width: 275px;
+}
+
+.tw-sprite{
+  display: inline-block;
+  background-image: url(https://dkrn4sk0rn31v.cloudfront.net/2018/05/01101448/desktop-apps.png);
+  background-repeat: no-repeat;
+}
+
+#main-sprite{
+  margin: 0 auto;
+  border: 1px solid rgba(0,0,0, 0.3);
+  vertical-align: middle;
+}
+
+
+.input-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px 5px;
+  text-align: center;
+}
