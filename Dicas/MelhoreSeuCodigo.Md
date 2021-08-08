@@ -6,13 +6,13 @@
 
 2 - ~~(1 * “20.7”) é mais rápido que parseInt(20.7)
 
-3 - Uma das melhores maneiras de aumentar a performance de seus códigos JavaScript é usar o cache de objetos. O seguinte código, por exemplo, é ineficiente pois acessa o objeto diretamente várias vezes. Se você tiver 15 imagens na página, serão 30 acessos ao objeto.
+3 - Uma das melhores maneiras de aumentar a performance de seus códigos JavaScript é usar o cache de objetos.
 
 4 - Use === ao invés de ==
 
 5 - Reduza a quantidade de váriaveis globais
 
-6 - Não declare variáveis dentro de laços de repetição**
+6 - Não declare variáveis dentro de laços de repetição
   
 7 - Use chaves e ponto-e-vírgula em seus códigos.
 
