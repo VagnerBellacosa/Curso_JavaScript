@@ -1,0 +1,1 @@
+console.log("%c Text1 %c Text2 %c Text3", "color:red;", "color:green;", "color:blue;");
