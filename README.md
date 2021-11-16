@@ -34,7 +34,7 @@ Linguagem
 
 - [![image-20211116172637913](Image/image-20211116172637913.png) Caracteres Especiais no JS](Workspace/CaracteresEspeciaisNoJavaScript.Md)
 
-- ![image-20211116172733358](Image/image-20211116172733358.png) [Code Exemplos](../js)
+- ![image-20211116172733358](Image/image-20211116172733358.png) [Code Exemplos](Workspace/js)
 
 - ![image-20211116172809385](Image/image-20211116172809385.png) [Tutoriais](Workspace/Tutoriais)
 
