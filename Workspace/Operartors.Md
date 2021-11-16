@@ -3,8 +3,8 @@
 An operator is a mathematical symbol that produces a result based on two values (or variables). In the following table, you can see some of the simplest operators, along with some examples to try in the JavaScript console.
 
  | Operator	 | Explanation	Symbol(s)	 | Example  | 
- | Addition	 | Add two numbers together or combine two strings. | 	+	6 + 9;
-'Hello ' + 'world!'; | 
+ | ---	 | ---	 | ---  | 
+ | Addition	 | Add two numbers together or combine two strings. | 	+	6 + 9; 'Hello ' + 'world!'; | 
  | Subtraction, Multiplication, Division	 | These do what you'd expect them to do in basic math. | 	-, *, /	9 - 3; /n 8 * 2; // multiply in JS is an asterisk /n 9 / 3; | 
  | Assignment	 | As you've seen already: this assigns a value to a variable.	 | =	let myVariable = 'Bob'; | 
  | Equality	 | This performs a test to see if two values are equal. It returns a true/false (Boolean) result.	===	let myVariable = 3; /n myVariable === 4; | 
